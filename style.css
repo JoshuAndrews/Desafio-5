@@ -150,10 +150,10 @@ main{
         background-image: linear-gradient( to bottom, var(--cor1) 3%, var(--cor2) 84.12%);
     }
     header{
-        padding: 30px;
+        padding: 30px 0px 30px 0px;
         display: flex;
         justify-content: space-between;
-        width: 500px;
+        width: 480px;
         margin: 0 auto;
     }
     .imagemLogo > img{
@@ -170,24 +170,29 @@ main{
     }
     .imagemPrincipal > img{
         width: 250px;
+        margin: 0 auto;
     }
     .titulos{
         width: 330px;
     }
     .titulos h5{
         padding-bottom: 10px;
+        margin: 0 auto
     }
     .titulos h1{
         font-size: 50px;
         padding-bottom: 15px;
+        margin: 0 auto;
     }
     .titulos > p{
         padding-bottom: 30px;
         font-size: 13px;
+        margin: 0 auto;
     }
     .botoes{
         display: flex;
         justify-content: start;
+        margin: 0 auto;
     }
     #btn1{
         margin: 0;
